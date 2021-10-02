@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector</title>
+    <style>
+        body{
+        background-image:url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Free-Plain-HD-Photos.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%290%;
+        }
+        article>ol>li:nth-child(1){
+            background-color: red;
+        }
+        article>ol>li:nth-child(3){
+            background-color: chartreuse;
+        }
+        article>ol>li:nth-child(5){
+            background-color: darkturquoise;
+        }
+        article>ol>li:nth-child(7){
+            background-color: gold;
+        }
+        article>ol>li:nth-child(9){
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <center><strong><h1>POPULAR PROGRAMMING LANGUAGES</h1></strong></center>
+    <article>
+        <ol>
+            <li>Python</li>
+            <br>
+            <li>Java</li>
+            <br>
+            <li>Javascipt</li>
+            <br>
+            <li>C++</li>
+            <br>
+            <li>C#</li>
+        </ol>
+    </article>
+</body>
+</html>
